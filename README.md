@@ -1,10 +1,8 @@
 # IAM Security Assignment
 
-**Instructor:** Sarlynoel Ndzie Dighambong  
-**Due:** Before next class session  
-**Points:** 100 (+ 10 bonus)
+ 
+Deadline: No later than 10:00 aM ET on 22 October 2025
 
----
 
 ## 🎯 Objective
 
@@ -20,7 +18,7 @@ Demonstrate your understanding of IAM by building a secure setup for a 3-tier we
 
 ## 📋 Requirements
 
-### Task 1: Create IAM Groups (10 points)
+### Task 1: Create IAM 
 
 Create **two groups** with appropriate policies:
 
@@ -38,7 +36,7 @@ Create **two groups** with appropriate policies:
 
 ---
 
-### Task 2: Create IAM Users (10 points)
+### Task 2: Create IAM Users 
 
 Create **two test users**:
 
@@ -58,7 +56,7 @@ Create **two test users**:
 
 ---
 
-### Task 3: Create Custom Policy (20 points)
+### Task 3: Create Custom Policy 
 
 **Scenario:** Your web servers need to:
 - Read files from S3 buckets (but only buckets that start with `webapp-`)
@@ -84,7 +82,7 @@ Create **two test users**:
 
 ---
 
-### Task 4: Create IAM Role for EC2 (20 points)
+### Task 4: Create IAM Role for EC2 
 
 **Scenario:** Your web application runs on EC2 instances. These instances need the permissions from your custom policy.
 
@@ -100,7 +98,7 @@ Create **two test users**:
 
 ---
 
-### Task 5: Test User Permissions (15 points)
+### Task 5: Test User Permissions 
 
 **Your task:** Verify that your groups are working correctly.
 
@@ -123,7 +121,7 @@ Create **two test users**:
 
 ---
 
-### Task 6: Test Role on EC2 (15 points)
+### Task 6: Test Role on EC2 
 
 **Your task:** Verify that your IAM role works correctly on an EC2 instance.
 
@@ -147,7 +145,7 @@ Create **two test users**:
 
 ---
 
-### Task 7: Security Analysis (20 points)
+### Task 7: Security Analysis 
 
 Answer these questions in your submission:
 
@@ -175,7 +173,7 @@ Answer these questions in your submission:
 
 ---
 
-### Task 8: BONUS - Enable MFA (+10 points)
+### Task 8: BONUS - Enable MFA 
 
 **Your task:**
 - Enable MFA (Multi-Factor Authentication) on both IAM users
@@ -188,7 +186,7 @@ Answer these questions in your submission:
 
 ---
 
-### Task 9: Cleanup (5 points)
+### Task 9: Cleanup 
 
 **Delete ALL resources you created to avoid charges:**
 - DynamoDB tables
@@ -239,26 +237,6 @@ Then create a Pull Request on GitHub.
 
 ---
 
-## ✅ Grading Rubric
-
-| Task | Points |
-|------|--------|
-| Task 1: Groups | 10 |
-| Task 2: Users | 10 |
-| Task 3: Custom Policy | 20 |
-| Task 4: IAM Role | 20 |
-| Task 5: User Testing | 15 |
-| Task 6: EC2 Testing | 15 |
-| Task 7: Questions | 20 |
-| Task 9: Cleanup | 5 |
-| **Bonus: MFA** | +10 |
-| **Total** | 100 (+10) |
-
-**Deductions:**
-- Missing screenshots: -2 points each
-- Incorrect policy: -5 to -10 points
-- AWS credentials visible: -10 points
-- Resources not cleaned up: -5 points
 
 ---
 
